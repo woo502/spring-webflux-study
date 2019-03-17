@@ -1,4 +1,4 @@
-package com.lalagg.fun.svc;
+package com.woo502.fun.svc;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -7,7 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lalagg.fun.model.User;
+import com.woo502.fun.model.User;
+import com.woo502.fun.svc.UserSvc;
 
 import reactor.core.publisher.Mono;
 

@@ -1,4 +1,4 @@
-package com.lalagg.fun.dao;
+package com.woo502.fun.dao;
 
 import java.util.Date;
 
@@ -9,7 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lalagg.fun.model.User;
+import com.woo502.fun.dao.UserRepository;
+import com.woo502.fun.model.User;
 
 import reactor.core.publisher.Mono;
 

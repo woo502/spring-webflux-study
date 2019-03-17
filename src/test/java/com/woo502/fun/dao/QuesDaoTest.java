@@ -1,4 +1,4 @@
-package com.lalagg.fun.dao;
+package com.woo502.fun.dao;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,7 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lalagg.fun.model.Question;
+import com.woo502.fun.dao.QuestionRepository;
+import com.woo502.fun.model.Question;
 
 import reactor.core.publisher.Flux;
 

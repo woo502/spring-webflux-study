@@ -24,24 +24,24 @@
     	targetProject可使用绝对路径或相对路径
     	使用命令行时可使用..\src
      -->
-    <javaModelGenerator targetPackage="com.lalagg.fun.model" targetProject="..\jweb_fun_full\src\main\java" >
+    <javaModelGenerator targetPackage="com.woo502.fun.model" targetProject="..\jweb_fun_full\src\main\java" >
     	<property name="trimStrings" value="true"/>
     	<property name="constructorBased" value="true"/>
     </javaModelGenerator>
     
     <!-- *Mapper.xml生成器.若不需要,则将targetproject设为空值即可 -->
-    <sqlMapGenerator targetPackage="com.lalagg.fun.dao" targetProject="..\jweb_fun_full\src\main\java" />
+    <sqlMapGenerator targetPackage="com.woo502.fun.dao" targetProject="..\jweb_fun_full\src\main\java" />
     
     <!-- *Mapper.java接口生成器.若不需要,则将targetproject设为空值即可 -->
-    <javaClientGenerator targetPackage="com.lalagg.fun.dao" targetProject="..\jweb_fun_full\src\main\java" type="ANNOTATEDMAPPER"/>
+    <javaClientGenerator targetPackage="com.woo502.fun.dao" targetProject="..\jweb_fun_full\src\main\java" type="ANNOTATEDMAPPER"/>
     
    	<table tableName="t_user" domainObjectName="User"
     	enableDeleteByPrimaryKey="false" modelType="flat"
     	enableCountByExample="false" enableDeleteByExample="false"
     	enableSelectByExample="false" enableUpdateByExample="false">
    		<property name="useActualColumnNames" value="false"/>
-   		<property name="rootInterface" value="com.lalagg.fun.common.mybatis.BaseMapper"/>
-   		<property name="rootClass" value="com.lalagg.fun.common.mybatis.BaseModel"/>
+   		<property name="rootInterface" value="com.woo502.fun.common.mybatis.BaseMapper"/>
+   		<property name="rootClass" value="com.woo502.fun.common.mybatis.BaseModel"/>
    		<columnRenamingRule searchString="^F" replaceString=""/>
    		
    	</table>
@@ -52,8 +52,8 @@
     	enableCountByExample="false" enableDeleteByExample="false"
     	enableSelectByExample="false" enableUpdateByExample="false">
    		<property name="useActualColumnNames" value="false"/>
-   		<property name="rootInterface" value="com.lalagg.fun.common.mybatis.BaseMapper"/>
-   		<property name="rootClass" value="com.lalagg.fun.common.mybatis.BaseModel"/>
+   		<property name="rootInterface" value="com.woo502.fun.common.mybatis.BaseMapper"/>
+   		<property name="rootClass" value="com.woo502.fun.common.mybatis.BaseModel"/>
    		<columnRenamingRule searchString="^F" replaceString=""/>
    	</table>
    	
@@ -63,8 +63,8 @@
     	enableCountByExample="false" enableDeleteByExample="false"
     	enableSelectByExample="false" enableUpdateByExample="false">
    		<property name="useActualColumnNames" value="false"/>
-   		<property name="rootInterface" value="com.lalagg.fun.common.mybatis.BaseMapper"/>
-   		<property name="rootClass" value="com.lalagg.fun.common.mybatis.BaseModel"/>
+   		<property name="rootInterface" value="com.woo502.fun.common.mybatis.BaseMapper"/>
+   		<property name="rootClass" value="com.woo502.fun.common.mybatis.BaseModel"/>
    		<columnRenamingRule searchString="^F" replaceString=""/>
    	</table>
    	
@@ -74,8 +74,8 @@
     	enableCountByExample="false" enableDeleteByExample="false"
     	enableSelectByExample="false" enableUpdateByExample="false">
    		<property name="useActualColumnNames" value="false"/>
-   		<property name="rootInterface" value="com.lalagg.fun.common.mybatis.BaseMapper"/>
-   		<property name="rootClass" value="com.lalagg.fun.common.mybatis.BaseModel"/>
+   		<property name="rootInterface" value="com.woo502.fun.common.mybatis.BaseMapper"/>
+   		<property name="rootClass" value="com.woo502.fun.common.mybatis.BaseModel"/>
    		<columnRenamingRule searchString="^F" replaceString=""/>
    	</table>
    	
@@ -85,8 +85,8 @@
     	enableCountByExample="false" enableDeleteByExample="false"
     	enableSelectByExample="false" enableUpdateByExample="false">
    		<property name="useActualColumnNames" value="false"/>
-   		<property name="rootInterface" value="com.lalagg.fun.common.mybatis.BaseMapper"/>
-   		<property name="rootClass" value="com.lalagg.fun.common.mybatis.BaseModel"/>
+   		<property name="rootInterface" value="com.woo502.fun.common.mybatis.BaseMapper"/>
+   		<property name="rootClass" value="com.woo502.fun.common.mybatis.BaseModel"/>
    		<columnRenamingRule searchString="^F" replaceString=""/>
    	</table>
    	
@@ -96,8 +96,8 @@
     	enableCountByExample="false" enableDeleteByExample="false"
     	enableSelectByExample="false" enableUpdateByExample="false">
    		<property name="useActualColumnNames" value="false"/>
-   		<property name="rootInterface" value="com.lalagg.fun.common.mybatis.BaseMapper"/>
-   		<property name="rootClass" value="com.lalagg.fun.common.mybatis.BaseModel"/>
+   		<property name="rootInterface" value="com.woo502.fun.common.mybatis.BaseMapper"/>
+   		<property name="rootClass" value="com.woo502.fun.common.mybatis.BaseModel"/>
    		<columnRenamingRule searchString="^F" replaceString=""/>
    	</table>
   </context>

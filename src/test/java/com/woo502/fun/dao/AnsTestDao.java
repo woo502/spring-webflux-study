@@ -1,4 +1,4 @@
-package com.lalagg.fun.dao;
+package com.woo502.fun.dao;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +15,8 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lalagg.fun.model.Answer;
+import com.woo502.fun.dao.AnswerRepository;
+import com.woo502.fun.model.Answer;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

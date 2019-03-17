@@ -1,4 +1,4 @@
-package com.lalagg.fun.svc;
+package com.woo502.fun.svc;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,10 +11,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lalagg.fun.model.Answer;
-import com.lalagg.fun.model.Question;
-import com.lalagg.fun.model.Trial;
-import com.lalagg.fun.model.UserAnswer;
+import com.woo502.fun.model.Answer;
+import com.woo502.fun.model.Question;
+import com.woo502.fun.model.Trial;
+import com.woo502.fun.model.UserAnswer;
+import com.woo502.fun.svc.TrialSvc;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
